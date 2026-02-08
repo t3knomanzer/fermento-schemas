@@ -1,0 +1,1 @@
+fermento_service_schemas

@@ -1,0 +1,9 @@
+pyproject.toml
+fermento_embedded_schemas/base.py
+fermento_embedded_schemas/feeding_event.py
+fermento_embedded_schemas/feeding_sample.py
+fermento_embedded_schemas/jar.py
+fermento_embedded_schemas.egg-info/PKG-INFO
+fermento_embedded_schemas.egg-info/SOURCES.txt
+fermento_embedded_schemas.egg-info/dependency_links.txt
+fermento_embedded_schemas.egg-info/top_level.txt

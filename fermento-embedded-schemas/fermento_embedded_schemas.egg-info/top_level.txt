@@ -1,0 +1,1 @@
+fermento_embedded_schemas
