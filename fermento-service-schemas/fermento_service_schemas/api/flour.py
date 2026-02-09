@@ -17,7 +17,6 @@ class FlourSchema(BaseModel):
 
     id: int
     name: str
-    short_name: str
     brand: str
     ingredients: str
     milling: str

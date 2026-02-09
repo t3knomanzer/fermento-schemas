@@ -1,3 +1,4 @@
+from datetime import datetime
 from base import BaseSchema
 
 
@@ -7,9 +8,9 @@ class FeedingEventSchema(BaseSchema):
     """
 
     id: int
-    date: str
     starter: dict
     jar: dict
+    timestamp: datetime
 
     @classmethod
     def _get_fields(cls) -> list[str]:

@@ -15,7 +15,7 @@ class StarterSchema(BaseModel):
 
     id: int
     name: str
-    birth_date: datetime
+    birthdate: datetime
 
 
 class StarterCreateSchema(BaseModel):
@@ -24,7 +24,7 @@ class StarterCreateSchema(BaseModel):
     """
 
     name: str
-    birth_date: datetime
+    birthdate: datetime
 
 
 class StarterUpdateSchema(BaseModel):
@@ -33,4 +33,4 @@ class StarterUpdateSchema(BaseModel):
     """
 
     name: Optional[str]
-    birth_date: Optional[datetime]
+    birthdate: Optional[datetime]
