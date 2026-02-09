@@ -38,7 +38,6 @@ class FlourCreateSchema(BaseModel):
     """
 
     name: str
-    short_name: str
     brand: str
     organic: bool
     ingredients: str
@@ -60,7 +59,6 @@ class FlourUpdateSchema(BaseModel):
     """
 
     name: Optional[str]
-    short_name: Optional[str]
     brand: Optional[str]
     organic: Optional[bool]
     ingredients: Optional[str]

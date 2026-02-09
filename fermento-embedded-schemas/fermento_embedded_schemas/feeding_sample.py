@@ -1,4 +1,4 @@
-from fermento_embedded_schemas.base import BaseSchema
+from .base import BaseSchema
 
 
 class FeedingSampleSchema(BaseSchema):

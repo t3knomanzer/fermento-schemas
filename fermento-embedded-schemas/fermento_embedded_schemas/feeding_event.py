@@ -1,5 +1,5 @@
 from datetime import datetime
-from base import BaseSchema
+from .base import BaseSchema
 
 
 class FeedingEventSchema(BaseSchema):
