@@ -16,7 +16,6 @@ class FeedingEventSchema(BaseSchema):
     def _get_fields(cls) -> list[str]:
         return [
             "id",
-            "date",
             "starter",
             "jar",
         ]
