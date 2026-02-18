@@ -28,6 +28,7 @@ class FeedingSampleCreateSchema(BaseModel):
     Schema for creating a new feeding.
     """
 
+    bundle_id: int
     feeding_event_id: int
     temperature: float
     humidity: float
@@ -40,6 +41,7 @@ class FeedingSampleUpdateSchema(BaseModel):
     Schema for updating existing feeding data.
     """
 
+    bundle_id: Optional[int] = None
     feeding_event_id: Optional[int] = None
     temperature: Optional[float] = None
     humidity: Optional[float] = None
