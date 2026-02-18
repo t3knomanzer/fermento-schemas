@@ -16,11 +16,14 @@ class FeedingSampleSchema(BaseModel):
     """
 
     id: int
+    bundle_id: int
     feeding_event_id: int
     temperature: float
     humidity: float
     co2: float
     distance: float
+    image_key: Optional[str] = None
+    timestamp: datetime
 
 
 class FeedingSampleCreateSchema(BaseModel):
@@ -34,6 +37,7 @@ class FeedingSampleCreateSchema(BaseModel):
     humidity: float
     co2: float
     distance: float
+    image_key: Optional[str] = None
 
 
 class FeedingSampleUpdateSchema(BaseModel):
@@ -47,3 +51,4 @@ class FeedingSampleUpdateSchema(BaseModel):
     humidity: Optional[float] = None
     co2: Optional[float] = None
     distance: Optional[float] = None
+    image_key: Optional[str] = None
