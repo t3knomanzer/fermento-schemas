@@ -40,7 +40,6 @@ class FeedingSampleProcessedCreateSchema(BaseModel):
     running_max: float
     running_min: float
     stage_estimate: str
-    timestamp: datetime  # ISO format string
 
 
 class FeedingSampleProcessedUpdateSchema(BaseModel):
@@ -59,4 +58,3 @@ class FeedingSampleProcessedUpdateSchema(BaseModel):
     running_max: Optional[float]
     running_min: Optional[float]
     stage_estimate: Optional[str]
-    timestamp: Optional[datetime]  # ISO format string
