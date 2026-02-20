@@ -14,7 +14,6 @@ class FeedingSampleProcessedSchema(BaseModel):
     temperature: float
     humidity: float
     co2: float
-    distance: float
     growth: float
     growth_rate: float
     acceleration: float
@@ -33,7 +32,6 @@ class FeedingSampleProcessedCreateSchema(BaseModel):
     temperature: float
     humidity: float
     co2: float
-    distance: float
     growth: float
     growth_rate: float
     acceleration: float
@@ -51,7 +49,6 @@ class FeedingSampleProcessedUpdateSchema(BaseModel):
     temperature: Optional[float]
     humidity: Optional[float]
     co2: Optional[float]
-    distance: Optional[float]
     growth: Optional[float]
     growth_rate: Optional[float]
     acceleration: Optional[float]
