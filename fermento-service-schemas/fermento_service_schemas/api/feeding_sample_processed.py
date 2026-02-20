@@ -17,8 +17,6 @@ class FeedingSampleProcessedSchema(BaseModel):
     growth: float
     growth_rate: float
     acceleration: float
-    running_max: float
-    running_min: float
     stage_estimate: str
     timestamp: datetime  # ISO format string
 
@@ -50,6 +48,4 @@ class FeedingSampleProcessedUpdateSchema(BaseModel):
     growth: Optional[float]
     growth_rate: Optional[float]
     acceleration: Optional[float]
-    running_max: Optional[float]
-    running_min: Optional[float]
     stage_estimate: Optional[str]
