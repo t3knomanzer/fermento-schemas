@@ -4,6 +4,10 @@ from .feeding_event import FeedingEventUpdateSchema
 from .feeding_sample import FeedingSampleSchema
 from .feeding_sample import FeedingSampleCreateSchema
 from .feeding_sample import FeedingSampleUpdateSchema
+from .feeding_sample import FeedingSampleUpdateSchema
+from .feeding_sample_processed import FeedingSampleProcessedSchema
+from .feeding_sample_processed import FeedingSampleProcessedCreateSchema
+from .feeding_sample_processed import FeedingSampleProcessedUpdateSchema
 from .flour_blend import FlourBlendSchema
 from .flour_blend import FlourBlendCreateSchema
 from .flour_blend import FlourBlendUpdateSchema
