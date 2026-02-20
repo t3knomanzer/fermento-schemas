@@ -35,8 +35,6 @@ class FeedingSampleProcessedCreateSchema(BaseModel):
     growth: float
     growth_rate: float
     acceleration: float
-    running_max: float
-    running_min: float
     stage_estimate: str
 
 
